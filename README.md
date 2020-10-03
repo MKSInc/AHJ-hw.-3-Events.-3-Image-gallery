@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/0al1vgs5olrkv92r?svg=true)](https://ci.appveyor.com/project/MKSInc/ahj-hw-3-events-3-image-gallery)
 ### [Gh-page](https://mksinc.github.io/AHJ-hw.-3-Events.-3-Image-gallery/)
 # 3. Домашнее задание к лекции «Обработка событий»
 
