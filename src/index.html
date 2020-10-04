@@ -15,5 +15,34 @@
 <body>
   <h1>3. Домашнее задание к лекции «Обработка событий»</h1>
   <h2>3.3 Галерея изображений с проверкой URL (задача со звёздочкой)</h2>
+  <div class="container">
+    <div class="widget">
+      <form>
+        <div class="widget-prop imgName">
+          <div class="widget-prop-name">
+            <label for="imgName">Название</label>
+          </div>
+          <div class="widget-prop-value">
+            <input id="imgName">
+            <p class="error-message hidden">Введите название</p>
+          </div>
+        </div>
+
+        <div class="widget-prop imgURL">
+          <div class="widget-prop-name">
+            <label for="imgURL">Ссылка на изображение</label>
+          </div>
+          <div class="widget-prop-value">
+            <input id="imgURL">
+            <p class="error-message hidden">Неверный URL изображения</p>
+          </div>
+        </div>
+
+        <button class="btnAdd">Добавить</button>
+      </form>
+    </div>
+
+    <div class="gallery"></div>
+  </div>
 </body>
 </html>
